@@ -1,37 +1,19 @@
 Project Title
-One Paragraph of project description goes here
+A PowerShell utility that will return all PDFs in directory path along with the count of signatures contained within each PDF file find. The results will be saved to a .csv file. The primary purpose of this tool is for looking at PDFs that should be signed to verify that at least one signature is counted in each file.
+
+After the .csv file is created, the application associated with opening .csv files (e.g. Excel), will launch and open the results. The CSV file is saved in the current users profile.
 
 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
-What things you need to install the software and how to install them
+Tested on Windows 10 64-bit OS w/ builtin Powershell version 5.
 
-Give examples
+
 Installing
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
-
-Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+1. Download the two files in the files library to the same location on your computer.
+2. Run the pdf-signature-count.ps1 file in PowerShell. You may be prompted to allow the script to run. Choose "Yes" if prompted.
+3. Choose a folder to look for PDFs. All pdfs found in this folder and all subfolders will be searched for signatures.
 
 Built With
 PowerShell
@@ -40,17 +22,11 @@ iText
 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
 Authors
 Aaron Appelbaum - Initial work
-See also the list of contributors who participated in this project.
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+iText | iTextSharp for the PDF library.
