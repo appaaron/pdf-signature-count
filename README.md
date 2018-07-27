@@ -19,8 +19,8 @@ a modern version of PowerShell installed.
 
 # **Built With**
 
-PowerShell
-iText
+- PowerShell
+- [itextsharp] (https://github.com/itext/itextsharp)
 
 # **Contributing**
 
