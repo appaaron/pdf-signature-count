@@ -1,12 +1,12 @@
-Project Title
+**Project Title**
 A PowerShell utility that will return all PDFs in directory path along with the count of signatures contained within each PDF file find. The results will be saved to a .csv file. The primary purpose of this tool is for looking at PDFs that should be signed to verify that at least one signature is counted in each file.
 
 After the .csv file is created, the application associated with opening .csv files (e.g. Excel), will launch and open the results. The CSV file is saved in the current users profile.
 
-Getting Started
+**Getting Started**
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+**Prerequisites**
 Tested on Windows 10 64-bit OS w/ builtin Powershell version 5.
 
 
