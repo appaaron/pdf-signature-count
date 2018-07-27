@@ -20,7 +20,7 @@ a modern version of PowerShell installed.
 # **Built With**
 
 - PowerShell
-- [itextsharp] (https://github.com/itext/itextsharp)
+- itextsharp (https://github.com/itext/itextsharp)
 
 # **Contributing**
 
