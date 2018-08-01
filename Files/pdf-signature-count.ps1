@@ -4,11 +4,9 @@ Created By: Aaron Appelbaum
 Created On: 3/5/2018
 Last Modified:
 
-Description: A PowerShell utility that will return all PDFs in directory path along with the count
- of signatures contained within each PDF file found. The results will be written to a .csv file in the current users
- temp directory. After the .csv file is created, the application associated with opening .csv files (e.g. Excel),
+Description: A PowerShell utility that reports on the number of digital signatures contained within each PDF file found in the directory path. 
+The results will be written to a .csv file in the current users temp directory. After the .csv file is created, the application associated with opening .csv files (e.g. Excel),
  will launch and open the results. The CSV file is saved in the current users profile.
-
 
 #>
 
