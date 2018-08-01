@@ -1,6 +1,6 @@
 # **PDF DIGITAL SIGNATURE COUNT**
 
-A PowerShell utility that reports on the number of digital signatures contained within each PDF file found in the directory path. The results are written to a .csv file. After the .csv file is created, the application associated with opening .csv files (e.g. Excel), will launch and open the results. The CSV file is saved in the current users profile.
+A PowerShell utility that reports on the number of digital signatures contained within each PDF file found in the directory path. The results are written to a .csv file. After the .csv file is created, the application associated with opening .csv files (e.g. Excel), will launch and open the results. The CSV file is saved in the current user's profile temp folder.  
 
 # **Getting Started**
 
