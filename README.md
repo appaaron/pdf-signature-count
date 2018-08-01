@@ -1,6 +1,6 @@
 # **Project Title**
 
-A PowerShell utility that will search all PDFs in directory path along with the count of signatures contained within each PDF file found. The results will be written to a .csv file in the current users temp directory. After the .csv file is created, the application associated with opening .csv files (e.g. Excel), will launch and open the results. The CSV file is saved in the current users profile.
+A PowerShell utility that will search all PDFs in directory path along and find the number of signatures contained within each PDF file. The results are written to a .csv file. After the .csv file is created, the application associated with opening .csv files (e.g. Excel), will launch and open the results. The CSV file is saved in the current users profile.
 
 # **Getting Started**
 
